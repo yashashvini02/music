@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+body{
+  background-image: url(mscdrct.jpg);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", Arial, sans-serif;
+  /*background-image: url(mscdrct.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;*/
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  background: #a9b0b1;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.card:hover {
+  height: 320px;
+}
+
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover > .content {
+  opacity: 1;
+  transform: translateY(-180px);
+}
+
+.content h2 {
+  color: #3a85ab;
+}
+.header1 {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", Arial, sans-serif;
+  /*background-image: url(mscdrct.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-position: fixed;
+}
+.card2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #bac0c1;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .card2:hover {
+    height: 320px;
+  }
+  
+  .img1box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-80px);
+    z-index: 99;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .content1 {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-450px);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .card2:hover > .content1 {
+    opacity: 1;
+    transform: translateY(-180px);
+  }
+  
+  .content1 h2 {
+    color: #7f9ead;
+  }
